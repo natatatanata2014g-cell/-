@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet"  href="assets/css/style.css">
+ <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<title>Portfolio</title>
+</head>
+<body>
+	<!-- Navbar -->
+	<nav>
+		<h1>Анастасия Ященко</h1>
+		<ul class="navigation">
+			<li><a href="#about" class="nav-link">Обо мне</a></li>
+			<li><a href="#skills" class="nav-link">Навыки</a></li>
+			<li><a href="#projects" class="nav-link">Проекты</a></li>
+			<li><a href="#contact" class="nav-link">Контакты</a></li>
+		</ul>
+		<button class="burger-menu" id="burger-menu">
+			<ion-icon class="bars" name="menu-outline"></ion-icon>
+		</button>
+	</nav>
+	<!-- Person Section -->
+	<section class="person" id="about">
+			<img src="assets/images/profile_girl2.jpg"
+			 	alt="картинка"
+				loading="lazy"
+				class="person-img"
+			/>
+			<div class="bio animate__animated animate__shakeX"><!-- двойное ниднее подчеркивание (сказал ИИ)-->
+				<h2 class="bio-title">Обо мне</h2>
+				<p class="bio-text">
+					Я веб-разработчик и создаю удобные интерфейсы
+					для сайтов. Мой путь в IT начался несколько
+					лет назад с простого любопытства, которое
+					быстро переросло в серьёзное увлечение. 
+					Сейчас я постоянно развиваю свои навыки, 
+					изучаю новые технологии и практикуюсь в 
+					написании чистого кода. Стремлюсь создавать 
+					проекты, которые объединяют в себе красивый 
+					дизайн и отличную логику.
+				</p>
+			</div>
+	</section>
+
+	<section class="more-about">
+		<h2>Дополнительная информация обо мне</h2>
+		<p>Увлекаюсь веб-разработкой уже несколько лет, 
+			поэтому хорошо понимаю основы и логику создания сайтов.</p>
+		<p>Не просто изучаю теорию, а сразу закрепляю знания на деле,
+			создавая реальные интерфейсы.</p>
+		<p>Постоянно ищу новые интересные задачи, 
+			чтобы прокачивать свои навыки и кодить еще лучше.</p>
+	</section>
+	<!-- Skills section -->
+	<section class="skills" id="skills">
+		<h3 class="skills-header">Мои навыки</h3>
+		<div class="skills-wrapper">
+			<div class="skills-set">
+				<img src="assets/icons/html.svg"
+			 	alt="иконка"
+				loading="lazy"
+				class="icon icon-card"
+				/>
+				<img src="assets/icons/css.svg"
+			 	alt="иконка"
+				loading="lazy"
+				class="icon icon-card"
+				/>
+				<img src="assets/icons/javascript.svg"
+			 	alt="иконка"
+				loading="lazy"
+				class="icon icon-card"
+				/>
+			</div>
+			<div class="skills-set">
+				<img src="assets/icons/bootstrap.svg"
+			 	alt="иконка"
+				loading="lazy"
+				class="icon icon-card"
+				/>
+				<img src="assets/icons/react-native.svg"
+			 	alt="иконка"
+				loading="lazy"
+				class="icon icon-card"
+				/>
+				<img src="assets/icons/git.svg"
+			 	alt="иконка"
+				loading="lazy"
+				class="icon icon-card"
+				/>
+			</div>
+		</div>
+	</section>
+	<!-- Projects section -->
+	<section class="projects" id="projects">
+		<h3 class="projects-title">Несколько мз моих проектов</h3>
+		<div class="projects-container">
+			<div class="project-container project-card">
+				<img src="assets/images/calc.png"
+			 	alt="проект калькулятор"
+				loading="lazy"
+				class="project-pic"
+				/>
+				<h4 class="project-title">Калькулятор</h4>
+				<p class="project-details">
+					Интерактивный веб-калькулятор для математических 
+					и финансовых вычислений. 
+					Mгновенное переключение между тем оформления и полностью адаптирован 
+					под экраны мобильных устройств. Создан на чистом javascript
+					с использованием современной верстки CSS Grid.
+				</p>
+				<a href="#" target="_blank" class="project-link">Узнать больше</a>
+			</div>
+			<div class="project-container project-card">
+				<img src="assets/images/food.png"
+			 	alt="проект еда"
+				loading="lazy"
+				class="project-pic"
+				/>
+				<h4 class="project-title">Книга рецептов</h4>
+				<p class="project-details">
+					Интерактивная платворма  для  поиска  и сохранения 
+					кулинарных  рецептов  со    всего мира.  Пользователи могут 
+					фильтровать  блюда  оп ингридиентам, времени  приготовления и сложности.
+					Добавлена удобная функция автоматического пересчета  веса 
+					продуктов в зависимости от количества порций.
+				</p>
+				<a href="#" target="_blank" class="project-link">Узнать больше</a>
+			</div>
+			<div class="project-container project-card">
+				<img src="assets/images/profile.png"
+			 	alt="проект профиль"
+				loading="lazy"
+				class="project-pic"
+				/>
+				<h4 class="project-title">Портфолии</h4>
+				<p class="project-details">
+					Элегантная и минипалистичная страница визитка для презентации
+					профессиональных навыков и выполненных кейсов. Содержит 
+					кликабельные иконки социальных сетей и быстрой связи,
+					краткую биографию и встроенную форму отправки сообщений.
+					Полностью оптимизирован<!--для быстрой загрузки.--> 
+				</p>
+				<a href="#" target="_blank" class="project-link">Узнать больше</a>
+			</div>
+		</div>
+	</section>
+	<!-- Contact section-->
+	 <section class="contact" id="contact">
+			<h4>Связаться со мной</h4>
+			<div class="contact-form-container">
+				<div class="contact-form">
+					<form action="#" method="post">
+						<div class="form-control">
+							<label for="name">Name</label>
+							<input
+								type="text"
+								id="name"
+								name="send-name"
+								placeholder="Введите свое имя"
+								class="input-field"
+								required
+							/>
+						</div>
+						<div class="form-control">
+							<label for="email">Email</label>
+							<input
+								type="email"
+								id="email"
+								name="send-email"
+								placeholder="Введите свою почту"
+								class="input-field"
+								required
+							/>
+						</div>
+						<div class="form-control">
+							<label for="message">Message</label>
+								<textarea
+									id="message"
+									name="message"
+									cols="60"
+									rows="10"
+									placeholder="Введите своё сообщение"
+									class="input-field"
+									required
+								>
+								</textarea><!---->
+						</div>
+						<div class="form-control">
+							<input 
+								type="submit"
+								value="Отправить"
+								id="submit-btn"
+								class="submit-btn"
+							/>
+						</div>
+					</form>
+				</div>
+			</div>
+	 </section>
+    <!-- Contact section -->
+	<div class="socials">
+		<a href="#" target="_blank">
+			<img 
+			src="assets/icons/twitter.gif" 
+			alt="twitter"
+			loading="lazy"
+			class="socicon"
+			/>
+		</a>
+		<a href="#" target="_blank">
+			<img 
+			src="assets/icons/instagramm.gif" 
+			alt="instagram"
+			loading="lazy"
+			class="socicon"
+			/>
+		</a>
+		<a href="#" target="_blank">
+			<img 
+			src="assets/icons/link.gif" 
+			alt="linkedin"
+			loading="lazy"
+			class="socicon"
+			/>
+		</a>
+		<a href="#" target="_blank">
+			<img 
+			src="assets/icons/github.gif" 
+			alt="github"
+			loading="lazy"
+			class="socicon"
+			/>
+		</a>
+	</div>
+	 <!-- Scroll to top -->
+	  <i class="scroll-up" id="scroll-up">
+		<img src="assets/icons/иконка стрелки.gif" 
+		class="socicon up-arrow"
+		alt="scroll-up"/>
+	  </i>
+	<!-- Footer section -->
+	<footer>
+		<p class="copy">@ Copyright 2026</p>
+		<p class="copy">Созданно
+			<a href="https://web.telegram.org" target="_blank">Анастасия Ященко</a>
+		</p>
+	</footer>
+
+
+
+
+
+
+
+	<script type="text/javascript" src="assets/js/app.js"></script>
+	<!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+</body>
+</html>
